@@ -4,7 +4,7 @@
 rm(list = ls())
 
 # Localizando o arquivo .xls
-setwd("/Users/vitto/Dropbox/dataanalysis/data")
+setwd("/Exercicios - Pri/Dados")
 
 ## install.packages("xlsx")
 library(xlsx)
