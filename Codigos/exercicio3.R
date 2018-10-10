@@ -7,8 +7,17 @@
 rm(list = ls())
 #
 
-library(readxl)
-dados <- read_excel("dados/exercicio3.xlsx")
+# Localizando o arquivo .xls
+setwd("/Exercicios - Pri/Dados")
+
+#a) Construir uma tabela de frequências; 
+#b) Calcular as medidas de posição e as medidas de dispersão; 
+#c) Faça um programa em R para calcular e gerar os gráficos.
+
+## install.packages("xlsx")
+library(xlsx)
+
+dados <- read.xlsx("exercicio3.xls", sheetName = "Plan1")
 View(dados)
 
 mediana <- median(dados$'Numero de filhos')
