@@ -1,6 +1,6 @@
 #exercicio 4
 library(readxl)
-dados <- read_excel("dados/exercicio4.xls")
+dados <- read_excel("Dados/exercicio4.xls")
 View(dados)
 
 #Tabela de frequências absolutas
